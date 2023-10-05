@@ -1,0 +1,15 @@
+diff --git a/crypto/asn1/asn1_lib.c b/crypto/asn1/asn1_lib.c
+index b9b7ad8e9e..20281b88ce 100644
+--- a/crypto/asn1/asn1_lib.c
++++ b/crypto/asn1/asn1_lib.c
+@@ -132,8 +132,8 @@ static int asn1_get_length(const unsigned char **pp, int *inf, long *rl,
+                 p++;
+                 i--;
+             }
+-            if (i > (int)sizeof(long))
+-                return 0;
++            //if (i > (int)sizeof(long))
++            //    return 0;
+             while (i > 0) {
+                 ret <<= 8;
+                 ret |= *p++;

